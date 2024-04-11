@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="username">Nombre de Usuario</label>
+            <input type="text" name="username" id="username" placeholder="Nombre">
+        </div>
+        <div>
+            <label for="contrasena">Contrasena</label>
+            <input type="password" name="password" id="contrasena" placeholder="password">
+        </div>
+        <div>
+            <label for="pais">Seleccion de Pais</label>
+            <select name="pais" id="pais">
+                <option value="NA"selected>No seleccionado</option>
+                <option value="AR">Argentina</option>
+                <option value="FR">Francia</option>
+            </select>
+        </div>
+        <div>
+            <label for="pais1">seleccione un pais</label>
+            <span>Argentina</span><input type="radio" name="pais1" id="ar">
+            <span>Francia</span><input type="radio" name="pais1" id="fr">
+        </div>
+        <div>
+            <label for="mensaje">ingrese su mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="10" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="confirmar">
+        </div>
+    </form>
+</body>
+</html>
