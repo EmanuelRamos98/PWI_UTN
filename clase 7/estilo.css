@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    color: rgb(90, 170, 9);
+    font-size: 40px;
+    letter-spacing: -4px;
+    word-spacing: -7px;
+    text-decoration: underline rgb(5, 0, 0) dotted;
+    text-shadow: 100px 3px 4px black,
+    0px 0px 10px rgb(255, 24, 255)
+    /* esta propiedad tiene un orden eje x / eje y/ valor_difuminado/ color*/;
+    background-color: black;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+p{
+    font-weight: 500;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 25px;
+}

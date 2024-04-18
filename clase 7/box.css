@@ -1,0 +1,12 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.caja{
+    background-color: black;
+    height: 200px;
+}
+a{
+    background-color: aqua;
+    width: 400px;
+    display: inline-block;
+}
