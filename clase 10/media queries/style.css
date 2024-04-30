@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.padre{
+    background-color: blueviolet;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+.hijo{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 15px;
+    max-width: 400px;
+}
+
+@media screen and (min-width: 900px) {
+    .padre{
+        flex-direction: row;
+    }
+    .hijo{
+        background-color: red;
+    }
+}

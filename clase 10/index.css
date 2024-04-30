@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.padre{
+    width: 205vh;
+    height: 200vh;
+    background-color: green;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.hijos{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: solid 1px;
+}
+.hijos:nth-child(1){
+    background-color: red
+}
+.hijos:nth-child(2){
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+.hijos:nth-child(3){
+    background-color: aqua;
+    z-index: 2;
+}
